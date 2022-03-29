@@ -9,7 +9,7 @@
     top: 20px; */
 /* } */
 header{
-    background-image:url(assets/2016-08-8-Cleaning-in-progress-banner.jpg); 
+    /* background-image:url(/assets/2016-08-8-Cleaning-in-progress-banner.jpg);  */
     background-size: cover;
     background-position: center;
     opacity: 0.8;    
