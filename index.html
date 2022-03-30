@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -13,7 +14,7 @@
     <title>McAnnie</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
 		<div class="container"> 
                 <nav class="navbar navbar-light bg-transparent">
                     <div class="container">
@@ -41,7 +42,7 @@
 				<a class="nav-link text-dark" href="#">Contact Us</a>
 			  </li>
               <li class="nav-item">
-                <button type="button" class="btn btn-outline-light">+254782949500</button>
+                <button type="button" class="btn btn-outline-dark">+254782949500</button>
 			  </li>
               <li class="nav-item">
 				<a href="#" class="btn btn-primary active" aria-current="page">Book Now</a>
@@ -141,21 +142,21 @@
 		</div>
 	</section> -->
 	<section class="hiw">
-		<div class="container">
+		<div class="container text-center">
 			<div class="row">
 				<div class="col-md-4">
-					<h1>Book Now</h1>
-					<i class="fa fa-checked-circle"></i>
+					<h1>Book Now</h1><br>
+					<img src="assets/open-book.png" class="rounded mx-auto d-block" style="height: 5em;" alt="icon"><br>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dolores nulla laborum similique necessitatibus tempora at corporis voluptatibus est pariatur?</p>
 				</div>
 				<div class="col-md-4">
-					<h1>We Clean</h1>
-					<i class="fa fa-checked-circle"></i>
+					<h1>We Clean</h1><br>
+					<img src="assets/cleaning.png" class="rounded mx-auto d-block" style="height: 5em;" alt="icon"><br>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dolores nulla laborum similique necessitatibus tempora at corporis voluptatibus est pariatur?</p>
 				</div>
 				<div class="col-md-4">
-					<h1>You Relax</h1>
-					<i class="fa fa-checked-circle"></i>
+					<h1>You Relax</h1><br>
+					<img src="assets/sofa.png" class="rounded mx-auto d-block" style="height: 5em;" alt="icon"><br>
 					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dolores nulla laborum similique necessitatibus tempora at corporis voluptatibus est pariatur?</p>
 				</div>
 			</div>
@@ -222,7 +223,9 @@
 								<p>CEO</p>
 								<p><i class="fab fa-facebook-f"></i>
 									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook-f"></i>
+									
+									<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
 								</p>
 							</div>
 						</div>
@@ -233,7 +236,9 @@
 								<p>General Manager</p>
 								<p><i class="fab fa-facebook-f"></i>
 									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook-f"></i>
+									
+									<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
 								</p>
 							</div>
 						</div>
@@ -244,7 +249,9 @@
 								<p>Human Resources</p>
 								<p><i class="fab fa-facebook-f"></i>
 									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook-f"></i>
+									
+									<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
 								</p>
 							</div>
 						</div>
@@ -255,7 +262,9 @@
 								<p>Human Resources</p>
 								<p><i class="fab fa-facebook-f"></i>
 									<i class="fab fa-twitter"></i>
-									<i class="fab fa-facebook-f"></i>
+									
+									<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
 								</p>
 							</div>
 						</div>
@@ -278,55 +287,162 @@
 			</div>
 		</div>
 	</section>
-	
-	<section id="recent-section"> 
-		<div class="container"> 
-			<div class="row"> 
-				<div class="col-md-12"> 
-					<div class="team-top-header text-center"> 
-						<h1>Nunc Dignism</h1>
-						<p>Megna tempus sed amet</p>
+	<section>
+		<div class="container">
+			<div class="card" style="margin-top:15px;">
+				<div class="card-body">
+					<h5 class="text-dark">Submit A Review</h5>
+					<p class="text-secondary">We pride ourselves on being there when you need us most. Your honest feedback helps our team improve.</p>
+					<div class="star-area">
+						<h1>
+							<i class="fa fa-star-o" aria-hidden="true" id="star_review" data-number="1"></i>
+							<i class="fa fa-star-o" aria-hidden="true" id="star_review" data-number="2"></i>
+							<i class="fa fa-star-o" aria-hidden="true" id="star_review" data-number="3"></i>
+							<i class="fa fa-star-o" aria-hidden="true" id="star_review" data-number="4"></i>
+							<i class="fa fa-star-o" aria-hidden="true" id="star_review" data-number="5"></i>
+						</h1>
 					</div>
-					<div class="row"> 
-						<div class="col-md-6"> 
-							<div class="recent-text"> 
-								<img class="img-fluid" src="https://images.pexels.com/photos/113727/pexels-photo-113727.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" />
-								<h1>Megna tempus sed</h1>
-								<p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-								<button class="btn btn-primary">More</button>
-							</div>
-						</div>
-						<div class="col-md-6"> 
-							<div class="recent-text"> 
-								<img class="img-fluid" src="https://images.pexels.com/photos/113727/pexels-photo-113727.jpeg?auto=compress&cs=tinysrgb&h=350" alt="" />
-								<h1>Megna tempus sed</h1>
-								<p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-								<button class="btn btn-primary">More</button>
-							</div>
-						</div>
+					<div class="review-area" style="display:none;">
+						<form>
+							<input type="hidden" name="stars" id="star_input" value="0">
+							<textarea class="form-control" rows="3" style="resize: none"></textarea>
+							<span class="float-right" style="margin-top:15px;line-height:35px;">
+								<span id="stars_confirm">
+								</span>
+								<button class="btn btn-primary float-right" type="submit" style="margin-left:20px;">Submit</button>
+							</span>
+						</form>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-	<footer style="padding: 21px;"> 
-		<div class="container"> 
-			<div class="row"> 
-				<div class="col-md-6"> 
-					Design by Kevin
+	<section class="portfolio text-center p-4">
+		<h5>OUR PORTFOLIO</h5>
+		<h1>Our Lastest Works</h1>
+			<div class="row">
+				<div class="col-md-2">
+					<img src="assets/ashwini-chaudhary-Iu6parQAO-U-unsplash.jpg" class="img-fluid" alt="...">
 				</div>
-				<div class="col-md-6 col-6"> 
-					<div class="social-icon text-right"> 
+				<div class="col-md-2">
+					<img src="assets/jason-briscoe-AQl-J19ocWE-unsplash.jpg" class="img-fluid" alt="...">
+				</div>
+				<div class="col-md-2">
+					<img src="assets/jake-nebov-OPjxGV7ubsY-unsplash.jpg" class="img-fluid" alt="...">
+				</div>
+				<div class="col-md-2">
+					<img src="assets/ryoji-iwata-Fusx3dlbqpw-unsplash.jpg" class="img-fluid" alt="...">
+				</div>
+				<div class="col-md-2">
+					<img src="assets/jose-losada-DyFjxmHt3Es-unsplash.jpg" class="img-fluid" alt="...">
+				</div>
+				<div class="col-md-2">
+					<img src="assets/studio-dekorasyon-vngzm4P2BTs-unsplash.jpg" class="img-fluid" alt="...">
+				</div>
+			</div>
+	</section>
+	<section class="news text-center pt-4 text-light">
+		<h5>NEWS & BLOGS</h5>
+		<h1>Latest From News</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="assets/pille-r-priske-Y1JjwhHaPRM-unsplash.jpg" class="img-fluid" alt="...">
+					<title>blog1</title>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laudantium assumenda nemo excepturi, earum, est numquam similique dolorum exercitationem eius quibusdam voluptas. Nostrum sit sequi eveniet similique soluta nulla ut distinctio, saepe velit? Laboriosam, est sint harum amet animi nulla non dicta commodi pariatur eius dolorum suscipit explicabo ipsum similique sapiente quo optio? Voluptatem quos deleniti est nisi laudantium necessitatibus?</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui id suscipit pariatur quisquam architecto maxime quis exercitationem. Labore, sunt! Adipisci tempore reiciendis quidem voluptate ratione accusamus est ipsa maiores minus?</p>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/no-revisions-cpIgNaazQ6w-unsplash.jpg" class="img-fluid" alt="...">
+					<title>blog1</title>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laudantium assumenda nemo excepturi, earum, est numquam similique dolorum exercitationem eius quibusdam voluptas. Nostrum sit sequi eveniet similique soluta nulla ut distinctio, saepe velit? Laboriosam, est sint harum amet animi nulla non dicta commodi pariatur eius dolorum suscipit explicabo ipsum similique sapiente quo optio? Voluptatem quos deleniti est nisi laudantium necessitatibus?</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui id suscipit pariatur quisquam architecto maxime quis exercitationem. Labore, sunt! Adipisci tempore reiciendis quidem voluptate ratione accusamus est ipsa maiores minus?</p>
+				</div>
+				<div class="col-md-4">
+					<img src="assets/s-o-c-i-a-l-c-u-t-1RT4txDDAbM-unsplash.jpg" class="img-fluid" alt="...">
+					<title>blog1</title>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, laudantium assumenda nemo excepturi, earum, est numquam similique dolorum exercitationem eius quibusdam voluptas. Nostrum sit sequi eveniet similique soluta nulla ut distinctio, saepe velit? Laboriosam, est sint harum amet animi nulla non dicta commodi pariatur eius dolorum suscipit explicabo ipsum similique sapiente quo optio? Voluptatem quos deleniti est nisi laudantium necessitatibus?</p>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui id suscipit pariatur quisquam architecto maxime quis exercitationem. Labore, sunt! Adipisci tempore reiciendis quidem voluptate ratione accusamus est ipsa maiores minus?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="p-4"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h2>Get a Free Callback</h2>
+					<p>Leave your phone number and our teams willeach out to you</p>
+				</div>
+				<div class="col-sm-6">
+					<form action="">
+						<input type="tel" name="phone" id="phone">
+						<a href="#" class="btn btn-primary active" aria-current="page">Send Now</a>
+					</form>
+				</div>			
+			</div>
+		</div>
+	</section>
+	<section class="quicklinks p-4 text-left">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="assets/McAnnielogo-removebg-preview.png" class="img-fluid" alt="logo">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, magnam. Blanditiis dolorem molestiae libero nihil.</p>
+					<ul>
+						<li>+254789949500</li>
+						<li>clean@mcannie.co.ke</li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Quick Links</h3>
+					<hr>
+					<ul>
+						<li><a class="nav-link text-dark" href="#">About Us</a></li>
+						<li><a class="nav-link text-dark" href="#">How it works</a></li>
+						<li><a class="nav-link text-dark" href="#">Why choose us</a></li>
+						<li><a class="nav-link text-dark" href="#">Review</a></li>
+						<li><a class="nav-link text-dark" href="#">Contact us</a></li>
+						<li><a class="nav-link text-dark" href="#">Blog</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h3>Our Services</h3>
+					<hr>
+					<ul>
+						<li><a class="nav-link text-dark" href="#">Hotel cleaning</a></li>
+						<li><a class="nav-link text-dark" href="#">Offices cleaning</a></li>
+						<li><a class="nav-link text-dark" href="#">House cleaning</a></li>
+						<li><a class="nav-link text-dark" href="#">Warehouse cleaning</a></li>
+						<li><a class="nav-link text-dark" href="#">Building cleaning</a></li>
+						<li><a class="nav-link text-dark" href="#">Road cleaning</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<br><br><br>
+					<a href="#" class="btn btn-primary active" aria-current="page">Book Now</a><br><br>
+					<a href=""><button type="button" class="btn btn-outline-dark">Join Us</button></a><br><br>
+					<a href=""><button type="button" class="btn btn-outline-dark">Get a Quote</button></a><br><br>
+					<div class="social-icon"> 
 						<i class="fab fa-facebook-f"></i>
 						<i class="fab fa-twitter"></i>
-						<i class="fab fa-facebook-f"></i>
-						<i class="fab fa-facebook-f"></i>
-						<i class="fab fa-facebook-f"></i>
+						<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-youtube"></i>
 					</div>
 				</div>
 			</div>
 		</div>
+	</section>
+	<footer style="padding: 21px;">  
+			<div class="row text-light"> 
+				<div class="col-md-6"> 
+					Design by GallantDev
+				</div>
+				<div class="col-md-6 col-6"> 
+					copyright(c)2022.All right reserved
+				</div>
+			</div>
 	</footer>
 </body>
 </html>

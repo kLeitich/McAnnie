@@ -13,10 +13,11 @@ header{
     background-size: cover;
     background-position: center;
     opacity: 0.8;    
+	
     /* border-top: 8px solid #5385C1; */
 }
 .navbar{
-    background-color: rgba(255, 255, 0, 0.4);
+    background-color: rgba(255, 255, 0, 1);
 }
 .quote{
 	background-color: navy;
@@ -83,5 +84,29 @@ color:#fff;
 	font-weight: 300;
 
 font-size: 25px;
+}
+.star-area {
+    text-align:center;
+}
+
+.fa-star-o {
+	color: #212529;
+	cursor: pointer;
+}
+.fa-star {
+	color: #FFD700;
+	cursor: pointer;
+}
+.portfolio{
+	background-color: rgba(255, 255, 0, 1);
+}
+.news{
+	background-color: navy;
+}
+.quicklinks{
+	background-color: rgba(255, 255, 0, 1);
+}
+footer{
+	background-color: navy;
 }
  

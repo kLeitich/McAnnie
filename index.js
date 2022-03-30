@@ -1,14 +1,33 @@
-var triggerTabList = [].slice.call(document.querySelectorAll('.navbar-toggler'))
-triggerTabList.forEach(function (triggerEl) {
-  var tabTrigger = new bootstrap.Tab(triggerEl)
-
-  triggerEl.addEventListener('click', function (event) {
-    event.preventDefault()
-    tabTrigger.show()
-  })
+alert("hey")
+$( document ).ready(function() {
+	document.querySelectorAll('#star_review').forEach(function(element) {
+		element.addEventListener("mouseenter", function(event) {
+			$('#stars_confirm').html('');
+			var stars = event.target.dataset.number;
+			$('#star_input').val(stars);
+			var count = 0;
+			document.querySelectorAll('#star_review').forEach(function(el) {
+				if (count < stars) {
+					$(el).removeClass('fa-star-o');
+					$(el).addClass('fa-star');
+					$('#stars_confirm').append('<i class="fa fa-star" aria-hidden="true" style="color:#212529 !important"></i>');
+				} else {
+					$(el).removeClass('fa-star');
+					$(el).addClass('fa-star-o');
+				}
+				count = count+1;
+			});
+		});
+		element.addEventListener("click", function(event) {
+			console.log('clicked')
+			$('.star-area').hide();
+			$('.review-area').fadeIn();
+		});
+		element.addEventListener("mouseleave", function(event) {
+			document.querySelectorAll('#star_review').forEach(function(el) {
+				$(el).removeClass('fa-star');
+				$(el).addClass('fa-star-o');
+			});
+		});
+	});
 });
-// var triggerEl = document.querySelector('#myTab button[data-bs-target="#profile"]')
-// bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-
-// var triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
-// bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
