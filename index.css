@@ -16,16 +16,22 @@ header{
     /* border-top: 8px solid #5385C1; */
 }
 .navbar{
-    background-color: rgba(82, 201, 52, 0.4);
+    background-color: rgba(255, 255, 0, 0.4);
+}
+.quote{
+	background-color: navy;
 }
 #quotes{
-    background: rgba(82, 201, 52,1);
+    background: navy;
 }
 .about{
     margin: 2%, 10%, 2%, 10%;
 }
-#about-section{
-    background-color: rgba(82, 201, 52, 0.4);
+.playbanner{
+	background-color: navy;
+}
+.hiw{
+    background-color: rgba(255, 255, 0, 1);
 }
 .te{
 	    padding-top: 115px;
@@ -53,7 +59,7 @@ header{
 #team-section{
 	padding: 50px 0;
 
-background: rgba(82, 201, 52,1);
+	background-color: rgba(255, 255, 0, 1);
 color:#fff;
 }
 .team-top-header h1 {
@@ -78,3 +84,4 @@ color:#fff;
 
 font-size: 25px;
 }
+ 
